@@ -1,0 +1,44 @@
+{
+  "name": "keeb-nano",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dasherize": "^2.0.0",
+    "drei": "^0.0.47",
+    "eslint": "^7.1.0",
+    "eslint-plugin-react": "^7.20.0",
+    "glsl-hsl2rgb": "^1.1.0",
+    "glsl-noise": "^0.0.0",
+    "glslify": "^7.0.0",
+    "random": "^2.2.0",
+    "react": ">=16.13",
+    "react-dom": ">=16.13",
+    "react-riffs": "^1.0.0-rc.2",
+    "react-router-dom": "^5.2.0",
+    "react-three-fiber": ">=4.2",
+    "three": "0.117.0",
+    "use-cannon": "^0.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-glslify": "^0.1.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+      }
+    }
+  }
+}
