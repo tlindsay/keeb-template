@@ -1,0 +1,8 @@
+node_modules
+dist
+.cache
+.parcel-cache
+
+# Ignore lock files since this is a template project
+yarn.lock
+package-lock.json
